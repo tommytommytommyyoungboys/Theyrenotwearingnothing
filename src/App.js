@@ -5,20 +5,26 @@
  * It serves as the root component for the application, displaying the default
  * CRA landing page with logo and basic instructions.
  * 
- * This component demonstrates the basic structure of a React application
- * with a simple UI that includes a spinning logo, text, and a link.
+ * This component demonstrates basic React concepts such as:
+ * - Functional components
+ * - JSX rendering
+ * - Basic styling through CSS imports
+ * - Image importing and usage
+ * - External link handling with security considerations
  */
 
-// Import React library to enable JSX syntax and component functionality
-// React must be in scope when using JSX even if not explicitly referenced
+// Import React to enable JSX syntax and component functionality
+// React must be in scope when using JSX (the HTML-like syntax below)
 import React from 'react';
 
 // Import the React logo SVG as a variable for use in the component
-// Using the import syntax allows webpack to process and optimize the image
+// Webpack handles this import and makes the image available as a JavaScript variable
+// This approach allows for dynamic image paths and optimizations
 import logo from './logo.svg';
 
-// Import component-specific styles from the App.css file
-// This creates a scoped styling approach for this component
+// Import component-specific styles
+// This CSS file contains all the styling rules applied to elements in this component
+// Create React App configures webpack to process and include these styles automatically
 import './App.css';
 
 /**
@@ -26,42 +32,45 @@ import './App.css';
  * Functional components are the modern preferred way to create React components.
  * This component returns JSX which React will render to the DOM.
  * 
- * @returns {JSX.Element} The JSX representation of our application UI
+ * This particular component follows the default structure provided by Create React App,
+ * displaying the React logo, some instructional text, and a link to React documentation.
+ * 
+ * @returns {JSX.Element} The rendered React element that represents our application UI
  */
 function App() {
-  // The return statement contains the JSX that will be rendered
   return (
     // Main container div with App class for styling
-    // This div wraps all content and applies the styles defined in App.css
+    // This wrapper div provides a container for all child elements
+    // The className attribute corresponds to CSS classes defined in App.css
     <div className="App">
-      {/* 
-       * Header section containing the logo, text, and link
-       * The App-header class provides styling for this section including
-       * background color, flex layout, and text alignment
-       */}
+      {/* Header section containing the logo, text, and link */}
+      {/* This uses the App-header class defined in App.css for styling */}
       <header className="App-header">
         {/* 
-         * React logo with animation applied via CSS
-         * The App-logo class contains the spinning animation
-         * Alt text is provided for accessibility
-         */}
+          React logo with animation applied via CSS
+          The logo is imported above and used as the src attribute
+          The App-logo class applies the spinning animation defined in App.css
+          The alt attribute provides accessibility text for screen readers
+        */}
         <img src={logo} className="App-logo" alt="logo" />
         
         {/* 
-         * Instruction paragraph with inline code formatting
-         * This shows users how to start making changes to the application
-         * The code element applies monospace formatting to highlight the file path
-         */}
+          Instruction paragraph with inline code formatting
+          The <code> element is used to style text as code with monospace font
+          This tells developers how to start making changes to the app
+        */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         
         {/* 
-         * External link to React documentation
-         * App-link class provides styling for the link (color, hover effects)
-         * target="_blank" opens the link in a new tab
-         * rel="noopener noreferrer" prevents security vulnerabilities when using target="_blank"
-         */}
+          External link to React documentation
+          The App-link class applies styling defined in App.css (typically color and hover effects)
+          target="_blank" opens the link in a new tab
+          rel="noopener noreferrer" prevents security vulnerabilities associated with target="_blank"
+          - noopener: Prevents the opened page from accessing window.opener
+          - noreferrer: Prevents passing the referrer information to the linked page
+        */}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -76,5 +85,6 @@ function App() {
 }
 
 // Export the App component for use in other parts of the application
-// This makes the component available for import in other files like index.js
+// This allows other files to import this component, typically index.js imports this
+// and renders it to the DOM as the root component of the application
 export default App;
