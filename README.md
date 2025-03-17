@@ -28,3 +28,27 @@ After all, they're not wearing nothing, they're wearing `undefined`.
 Code hides in plain sight
 Nothing worn but confusion
 Undefined clothing
+
+## Undefined Pants
+
+```
+      .---.
+     /     \
+    | () () |
+    \   ^   /
+     '-----'
+     |     |
+    /|     |\
+   / |     | \
+  /  |     |  \
+ /   |     |   \
+ |   |     |   |
+ |   |     |   |
+ |   |     |   |
+ |   |_____|   |
+ |   |     |   |
+ |   |     |   |
+ |___|     |___|
+     |     |
+     |_____|
+```
