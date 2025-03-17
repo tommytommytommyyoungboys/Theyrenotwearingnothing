@@ -9,6 +9,8 @@ Why did the programmer die in the shower? They tried to dereference NULL pointer
 
 Why do Python programmers wear glasses? Because they don't C#.
 
+Why don't programmers use soap? They're afraid of washing their hands with undefined behavior.
+
 After all, they're not wearing nothing, they're wearing `undefined`.
 
 ## Haiku
