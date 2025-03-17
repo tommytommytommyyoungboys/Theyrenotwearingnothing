@@ -1,5 +1,8 @@
 # Theyrenotwearingnothing
 
+## Joke
+Why did the programmer wear a raincoat in the shower? They heard about undefined behavior when handling streams!
+
 Why don't programmers like to go outside? They're afraid of getting null pointer exceptions from undefined clothing.
 
 After all, they're not wearing nothing, they're wearing `undefined`.
