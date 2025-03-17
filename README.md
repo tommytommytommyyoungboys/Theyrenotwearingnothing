@@ -7,6 +7,8 @@ Why don't programmers like to go outside? They're afraid of getting null pointer
 
 Why did the programmer die in the shower? They tried to dereference NULL pointer while applying shampoo.
 
+Why do Python programmers wear glasses? Because they don't C#.
+
 After all, they're not wearing nothing, they're wearing `undefined`.
 
 ## Haiku
