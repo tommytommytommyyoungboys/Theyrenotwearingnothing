@@ -8,6 +8,8 @@ Why did the programmer quit his job? He didn't get arrays.
 
 What's a programmer's favorite place to hang out? The Foo Bar.
 
+How many programmers does it take to change a light bulb? None, that's a hardware problem.
+
 ## Haiku
 
 Code hides in plain sight
