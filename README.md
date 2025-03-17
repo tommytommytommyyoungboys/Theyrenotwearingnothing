@@ -9,3 +9,18 @@ After all, they're not wearing nothing, they're wearing `undefined`.
 Code hides in plain sight
 Nothing worn but confusion
 Undefined clothing
+
+## ASCII Art
+
+```
+  _______
+ /       \
+| undefined |
+ \_______/
+     |
+  ---|---
+    / \
+   /   \
+```
+
+Looking for clothes in all the wrong memory addresses...
