@@ -1,0 +1,71 @@
+# ASCII Art
+
+```
+  _____ _             _ _              ____  
+ |  __ (_)           | (_)            |  _ \ 
+ | |__) | _ __   __ _| |_ _ __   ___  | |_) |
+ |  ___/ | '_ \ / _` | | | '_ \ / _ \ |  _ < 
+ | |   | | | | | (_| | | | |_) |  __/ |_| \_\
+ |_|   |_|_| |_|\__,_|_|_| .__/ \___| (_) (_)
+                         | |
+                         |_|
+```
+
+# Snips
+
+[![Build Status](https://travis-ci.org/nickjj/docker-symfony-demo.svg?branch=master)](https://travis-ci.org/nickjj/docker-symfony-demo)
+
+Snips is a super high quality copy-paste manager for macOS.
+
+It was designed to be easy to use and to stay out of your way as much as
+possible, so you can stay productive. It was built using the amazing Electron
+project.
+
+## Features
+
+* A simple, intuitive interface that stays out of your way
+* Search for previous copies that you have made
+* Snips lives completely in your menu bar
+* Copy and paste from your favorites with simple commands
+* Store an unlimited amount of clippings, and easily access them from your menu bar
+* A clean and simple settings page to customize Snips to work for you
+* The ability to automatically launch on startup
+
+## Installation
+
+Snips currently supports macOS only. Download the latest release from the
+[releases page](https://github.com/silentworks/snips/releases) and drag the application into your Applications folder.
+
+## Screenshots
+
+### Copy from a list of clippings
+
+![Copy from a list of clippings](assets/screenshots/copy-from-clippings.png)
+
+### Search for clippings
+
+![Search for clippings](assets/screenshots/search-for-clippings.png)
+
+### Settings page
+
+![Settings page](assets/screenshots/settings-page.png)
+
+## Development Setup
+
+You will need [Node](https://nodejs.org/) version `4.1.x` or above installed.
+
+Run `npm install electron -g` to install [electron](http://electron.atom.io/) globally.
+
+Run `npm install` to install all dependencies.
+
+Then run `npm start` to start Snips.
+
+## Running Tests
+
+Simply run `npm test`.
+
+## Contributing
+
+If you would like to contribute code, please fork this repo, create a new branch
+and submit a pull request. Pull requests are gladly welcomed. Please include
+tests if applicable.
