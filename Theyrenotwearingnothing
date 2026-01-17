@@ -1,0 +1,25 @@
+class Theyrenotwearingnothing:
+    def __init__(self):
+        self.data = []
+    
+    def add(self, item):
+        self.data.append(item)
+        return self.data
+    
+    def remove(self, item):
+        if item in self.data:
+            self.data.remove(item)
+        return self.data
+    
+    def clear(self):
+        self.data = []
+        return self.data
+    
+    def lololololololol(self, *args):
+        for arg in args:
+            modified = arg + 'a'
+            print(modified)
+
+
+def hehehe(text):
+    return text.upper()
